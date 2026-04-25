@@ -1,26 +1,24 @@
-# 🔐 CLI Password Manager
+# 🔐 Password Manager (CLI + Interactive UI)
 
-A secure password manager built in Python using encryption.
+A secure, menu-driven password manager built with Python that uses strong encryption to safely store and manage credentials locally.
 
-## Features
-- AES encryption (Fernet)
-- Master password protection
-- CLI interface
-- Add, retrieve, delete passwords
+---
 
-## Installation
-pip install -r requirements.txt
+## 🚀 Features
 
-## Usage
+- 🔐 Master password–based encryption system  
+- 🔒 Strong AES encryption using PBKDF2 + Fernet  
+- 🖥️ Interactive terminal UI (menu-driven experience)  
+- 🔑 Secure password generator (auto-generate strong passwords)  
+- 📂 Add, retrieve, list, and delete credentials  
+- 🧠 Fully encrypted local storage (vault.json)  
+- 💻 Works in terminal, PyCharm, and command prompt  
 
-Add password:
-python main.py add github user password
+---
 
-Get password:
-python main.py get github
+## ⚙️ Installation
 
-List:
-python main.py list
-
-Delete:
-python main.py delete github
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/password-manager.git
+cd password-manager
